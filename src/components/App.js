@@ -1,13 +1,22 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import Header from "./view/Header/Header";
-import Layout from "./view/Layout/Layout";
-import Footer from "./view/Footer/Footer";
-
+import Header from "./base/Header/Header";
+import Layout from "./base/Layout";
+import Footer from "./base/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 export class App extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+
+        }
+    }
+
+
     render() {
         return (
-            <div>
+            <div className={"d-flex flex-column"}>
                 <Header/>
                 <Layout/>
                 <Footer/>

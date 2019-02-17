@@ -1,0 +1,11 @@
+.accordion-btn {
+  display: flex !important;
+  justify-content: center;
+  border: 1px solid #cccccc !important;
+  height: fit-content;
+
+  &:hover {
+
+    background-color: #ddd;
+  }
+}

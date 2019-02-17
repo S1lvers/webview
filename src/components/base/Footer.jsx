@@ -3,7 +3,11 @@ import {connect} from 'react-redux';
 
 export class Footer extends Component {
     render() {
+        return(
+            <div className={"d-flex"}>
 
+            </div>
+        )
     }
 }
 
